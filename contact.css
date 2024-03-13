@@ -1,0 +1,85 @@
+.contact-me {
+  padding: 2px 0;
+}
+
+.icons {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-flex;
+  transition: color 0.5s, transform 0.5s;
+  justify-content: center;
+}
+
+.icons a:hover {
+  color: #3978ff;
+  transform: translateY(-5px);
+}
+
+.button {
+  display: block;
+  background: #3978ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.button:hover {
+  background: rgba(57, 120, 255, 0.85);
+  box-shadow: 4px 4px 4px #00000020;
+}
+
+.contact .download {
+  color: #fff;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact {
+  border-right: none;
+  justify-content: center;
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #eee;
+  padding: 15px;
+  margin: 15px 0;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+form input:hover,
+form textarea:hover {
+  border: 1px solid #3978ff;
+}
+
+form .button {
+  padding: 14px 60px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#msg {
+  color: #1bb101;
+  font-weight: 600;
+  margin-top: 10px;
+  display: block;
+}

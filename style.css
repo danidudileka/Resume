@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+body {
+  background-color: #fcfcfc;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: block;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.05);
+}
+
+.row {
+  padding: 1.5rem 0;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: #3978ff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #006be6;
+}
+
+h4 {
+  padding-bottom: 1.2rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  width: 90%;
+  border-radius: 50%;
+  border: 5px solid rgb(80, 80, 80, 0.1);
+  box-shadow: 0px 0px 20px #3978ff80;
+}
+
+.main-contact a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.main-contact a:hover {
+  color: rgb(25, 98, 255);
+  font-weight: 700;
+}
+
+.certificates a {
+  padding: 0.5rem 0;
+}
+
+.certificates a:hover {
+  color: rgb(25, 98, 255);
+  font-weight: 700;
+  transform: translateX(1rem);
+  transition: transform 0.5s, font-weight 0.5s;
+}
+
+table tr {
+  height: 4rem;
+  vertical-align: top;
+  font-size: 1.2rem;
+}
+
+table tr th {
+  width: 10rem;
+  font-weight: 500;
+}
+table tr td {
+  padding-bottom: 2rem;
+}
+
+.ol tr {
+  height: 3rem;
+}
+
+.ol th {
+  width: 15rem;
+}
+
+.ol td {
+  padding-bottom: 0px;
+}
+
+.col-md-3 {
+  border-right: 2px solid rgb(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.bio {
+  text-align: justify;
+}
+
+p a {
+  display: inline;
+}
+
+.col-12 {
+  padding: 0.5rem 2rem;
+}
+
+.copyright {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #000000;
+  background: #eee;
+  padding: 0px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-md-3 {
+    border-right: 0px;
+    text-align: center;
+  }
+
+  .profile-picture {
+    width: 60%;
+  }
+
+  h1 {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .results {
+    display: grid;
+  }
+
+  .ol {
+    display: flex;
+    justify-self: center;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  .contact-me{
+    text-align: center;
+  }
+}
